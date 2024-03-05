@@ -1,0 +1,10 @@
+{
+  "firstName": "Ingresa tu nombre.",
+  "lastName": "Ingresa tus apellidos.",
+  "username": "Ingresa un nombre de usuario.",
+  "usernameLogin": "Ingresa tu nombre de usuario o correo.",
+  "email": "Ingresa un correo.",
+  "password": "Ingresa una contraseña.",
+  "confirmPassword": "Confirma tu contraseña.",
+  "roles": "Selecciona un rol."
+}
