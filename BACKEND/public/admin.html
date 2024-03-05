@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Admin Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+.logout {
+      position: absolute;
+      display: block;
+      text-align: center;
+      margin-top: 2%;
+    }
+</style>
+<body>
+<h1 id="welcome"></h1>
+<h3 id="adminmail"></h3>
+<h2 id="title">All registered users</h2>
+
+<table id="myTable" style="width:100%">
+  <tr>
+    <th>Username</th>
+    <th>Roles</th>
+    <th>Email</th>
+    <th>Date</th>
+  </tr>
+</table>
+<div class="logout"><a href="/api/auth/logout" id="logout">Logout</a></div>
+<script src="js/admin.js"></script>
+</body>
+</html>
